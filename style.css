@@ -5,6 +5,24 @@ background { color: #214001; }
 .Verde-4-hex { color: #D96941; }
 destaque { color: #A62B1F; } */
 
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #2E5902 solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 .main footer { 
     margin: 4%;
 }
