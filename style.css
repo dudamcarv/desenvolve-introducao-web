@@ -5,6 +5,30 @@ background { color: #214001; }
 .Verde-4-hex { color: #D96941; }
 destaque { color: #A62B1F; } */
 
+a {
+    color:aquamarine;
+}
+
+a:hover {
+    color:blue;
+}
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float:left
+}
+
+.design-selection li {
+    border-top:#4b9106 solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type{
+    border-bottom:#1e3b02 solid 1px;
+    padding-bottom: 5px;
+}
+
+
 .supporting footer {
     display: flex;
     justify-content: space-evenly;
