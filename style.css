@@ -5,6 +5,42 @@ background { color: #214001; }
 .Verde-4-hex { color: #D96941; }
 destaque { color: #A62B1F; } */
 
+@media print {
+    html {
+        font-family:'Times New Roman', Times, serif ;
+    }
+
+    #zen-intro header {
+        background-color:aliceblue;
+        color:#4b9106;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position:static;
+        width: 100%;
+    }
+}
+
+.explanation {
+    border-right: none;
+    width: 100%;
+}
+
+#zen-intro {
+    height: auto;
+}
+
+.participation {
+    flex-direction: column;
+}
+
+p {
+    text-indent: 0;
+}
+
+
 a {
     color:aquamarine;
 }
